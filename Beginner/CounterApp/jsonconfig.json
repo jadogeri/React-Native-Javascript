@@ -3,9 +3,10 @@
         "baseUrl": ".",
         "paths":{
             "src": ["src/*"],
-            "@test/*": ["tests/*"],
-            "@screen/*": ["./src/screens/*"],
-            "@component/*": ["./src/components/*"]
+            "@Tests/*": ["tests/*"],
+            "@Screens/*": ["./src/screens/*"],
+            "@Components/*": ["./src/components/*"],
+            "@Assets/*": ["./assets/*"]           
         }
     }
 }

@@ -9,10 +9,10 @@ module.exports = function(api) {
           root:['./src'],
           alias:{
             src: "./src",
-            '@test':  './tests',
-            '@screen': './src/screens',
-            '@component':'./src/components'
-
+            '@Tests':  './tests',
+            '@Screens': './src/screens',
+            '@Components':'./src/components',
+            '@Assets':'./assets'           
           }
 
         },
@@ -20,3 +20,20 @@ module.exports = function(api) {
     ]
   };
 };
+// "@Navigation/*": ["src/navigation/*"],
+//       "@Components/*": ["src/components/*"],
+//       "@Screens/*": ["src/screens/*"],
+//       "@Stores/*": ["src/stores/*"],
+//       "@Assets/*": ["assets/*"]
+
+// import Home from './Home'
+// import Contact from './Contact'
+// import Login from './Login'
+// import SignUp from './Signup';
+
+// export {
+//     Home,
+//     Contact,
+//     Login,
+//     SignUp,
+// }
