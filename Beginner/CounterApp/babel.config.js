@@ -8,7 +8,7 @@ module.exports = function(api) {
         {
           root:['./src'],
           alias:{
-            src: "./src",
+            '@Src': "./src",
             '@Tests':  './tests',
             '@Screens': './src/screens',
             '@Components':'./src/components',
@@ -20,20 +20,4 @@ module.exports = function(api) {
     ]
   };
 };
-// "@Navigation/*": ["src/navigation/*"],
-//       "@Components/*": ["src/components/*"],
-//       "@Screens/*": ["src/screens/*"],
-//       "@Stores/*": ["src/stores/*"],
-//       "@Assets/*": ["assets/*"]
 
-// import Home from './Home'
-// import Contact from './Contact'
-// import Login from './Login'
-// import SignUp from './Signup';
-
-// export {
-//     Home,
-//     Contact,
-//     Login,
-//     SignUp,
-// }

@@ -1,14 +1,15 @@
-import { StyleSheet, Text } from 'react-native-paper'
+import { Text } from 'react-native-paper'
 import React from 'react';
 import { TouchableOpacity, Image, View } from 'react-native';
 import styles from './ButtonIconStyle'
 
-const ButtonIcon = ({image,pressHandler}) => {
+const ButtonIcon = ({image,pressHandler,longPressInHandler,longPressOutHandler}) => {
   return (
     <View>
-      <TouchableOpacity onPress={pressHandler}>
+      <TouchableOpacity onPress={pressHandler} 
+                        onPressIn={longPressInHandler}
+                       >
         <Image source={image} style={styles.image}/>
-        <Text>ButtonIcon</Text>
 
       </TouchableOpacity>
     </View>
