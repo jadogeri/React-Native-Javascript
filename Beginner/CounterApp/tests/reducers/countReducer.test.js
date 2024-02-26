@@ -26,6 +26,10 @@ describe("countReducer",() =>{
     it("Resets count to 0 ", () =>{
         const result = countReducer(testData2,{type:'RESET_COUNT'});
         expect(result.count).toBe(0);
+    });;
+    it("Returns default state ", () =>{
+        const result = countReducer(testData1,{type:'DEFAULT'});
+        expect(result.count).toBe(0);
     });
 
 });

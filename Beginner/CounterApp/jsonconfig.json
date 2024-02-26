@@ -6,7 +6,7 @@
         "paths":{
             "@Root":["./"],
             "@Src": ["./src/*"],
-            "@Tests/*": ["tests/*"],
+            "@Tests/*": ["./tests/*"],
             "@Screens/*": ["./src/screens/*"],
             "@Components/*": ["./src/components/*"],
             "@Assets/*": ["./assets/*"]           

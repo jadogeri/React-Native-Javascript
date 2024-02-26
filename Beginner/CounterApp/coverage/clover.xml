@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1708912104870" clover="3.2.0">
+  <project timestamp="1708912104870" name="All files">
+    <metrics statements="33" coveredstatements="33" conditionals="9" coveredconditionals="9" methods="13" coveredmethods="13" elements="55" coveredelements="55" complexity="0" loc="33" ncloc="33" packages="9" files="15" classes="15"/>
+    <package name="CounterApp">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\App.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="CounterApp.assets.images">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="minus-sign.png" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\assets\images\minus-sign.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="plus-sign.png" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\assets\images\plus-sign.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="CounterApp.src.components">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Components.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\Components.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="CounterApp.src.components.ButtonIcon">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ButtonIcon.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\ButtonIcon\ButtonIcon.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="27" type="stmt"/>
+      </file>
+      <file name="ButtonIconStyle.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\ButtonIcon\ButtonIconStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="CounterApp.src.components.CountIcon">
+      <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="CountIcon.jsx" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\CountIcon\CountIcon.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="26" type="stmt"/>
+      </file>
+      <file name="CountIconStyle.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\CountIcon\CountIconStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="CounterApp.src.components.DeltaButton">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="DeltaButton.jsx" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\DeltaButton\DeltaButton.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="26" type="stmt"/>
+      </file>
+      <file name="DeltaButtonStyle.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\DeltaButton\DeltaButtonStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="CounterApp.src.components.ResetButton">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ResetButton.jsx" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\ResetButton\ResetButton.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="27" type="stmt"/>
+      </file>
+      <file name="ResetButtonStyle.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\components\ResetButton\ResetButtonStyle.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="CounterApp.src.reducers">
+      <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="countReducer.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\reducers\countReducer.js">
+        <metrics statements="7" coveredstatements="7" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="13" type="cond" truecount="5" falsecount="0"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="CounterApp.src.screens.Home">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <file name="HomeScreen.jsx" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\screens\Home\HomeScreen.jsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="13" type="stmt"/>
+        <line num="11" count="13" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+      </file>
+      <file name="HomeStyles.js" path="C:\Users\Joseph\Desktop\Projects\React-Native-Javascript\Beginner\CounterApp\src\screens\Home\HomeStyles.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

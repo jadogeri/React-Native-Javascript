@@ -16,24 +16,24 @@ const Home = () => {
       <View  style={styles.two_button_container}>
       <ButtonIcon image={require('../../../assets/images/minus-sign.png')}
                   pressHandler={()=>{dispatch({type:'SET_NUMBER',payload : -1 * state.delta})}}
-                  />
+                  id='b1'/>
       <ButtonIcon image={require('../../../assets/images/plus-sign.png')}
                   pressHandler={()=>{dispatch({type:'SET_NUMBER',payload :state.delta})}}
-                  />
+                  id='b2'/>
       </View>
       <CountIcon  count={state.delta}/>
 
 <View style={styles.two_delta_buttons_container}>
 <DeltaButton  sign="-" pressHandler={()=>{dispatch({type:'SET_DELTA',payload:-1})}}
-              color="red"/>
+              color="red" id='delta1'/>
 <DeltaButton  sign="+" pressHandler={()=>{dispatch({type:'SET_DELTA',payload:1})}}
-              color="green"/>
+              color="green" id='delta2'/>
 </View>
 
       <View  style={styles.two_reset_button_container}>
-      <ResetButton  title="RESET COUNT"
+      <ResetButton  title="RESET COUNT" id='reset1'
                     pressHandler={()=>{dispatch({type:'RESET_COUNT',payload : -1 * state.delta})}} />
-      <ResetButton  title="RESET DELTA"
+      <ResetButton  title="RESET DELTA" id='reset2'
                     pressHandler={()=>{dispatch({type:'RESET_DELTA',payload :state.delta})}} />
       </View>
     </View>
