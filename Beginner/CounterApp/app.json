@@ -2,7 +2,11 @@
   "expo": {
     "packagerOpts": {
       "config": "metro.config.js",
-      "sourceExts": ["js", "jsx", "css"]
+      "sourceExts": [
+        "js",
+        "jsx",
+        "css"
+      ]
     },
     "name": "CounterApp",
     "slug": "CounterApp",
@@ -22,6 +26,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.joekadama.counterappdelta",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -29,6 +35,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "04a586cc-a6a0-495c-be64-f74e0db4fdca"
+      }
     }
   }
 }
